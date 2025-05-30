@@ -1,134 +1,147 @@
-# 🗂️ **Gerenciador de Tarefas** ✅
+# 🗂️ **Task Manager** ✅
 
-Um gerenciador de tarefas interativo para adicionar, excluir, concluir, modificar e recuperar tarefas de forma simples e organizada, utilizando um menu amigável em linha de comando.
-
----
-
-## 🚀 **Visão Geral do Projeto**
-
-Este projeto é uma aplicação **Python 3** que permite aos usuários gerenciar tarefas com facilidade. O programa permite:
-
-- **Adicionar Tarefas**
-- **Excluir Tarefas**
-- **Concluir Tarefas**
-- **Modificar Tarefas**
-- **Visualizar tarefas em andamento, concluídas ou excluídas**
-- **Recuperar tarefas excluídas ou concluídas**
+An interactive task manager to add, delete, complete, modify, and recover tasks in a simple and organized way, using a friendly command-line menu.
 
 ---
 
-## 🛠️ **Recursos Principais**
+## 🚀 **Project Overview**
 
-1. **Adicionar Tarefas**: Inclui nome da tarefa e prazo.
-2. **Excluir Tarefas**: Exclui tarefas da lista de tarefas ativas.
-3. **Concluir Tarefas**: Move tarefas para a lista de tarefas concluídas.
-4. **Modificar Tarefas**: Permite atualizar o nome ou prazo de uma tarefa específica.
-5. **Visualizar Tarefas**:
-   - Tarefas ativas
-   - Tarefas concluídas
-   - Tarefas excluídas
-6. **Recuperar Tarefas Excluídas**: Restaura tarefas excluídas.
-7. **Recuperar Tarefas Concluídas**: Restaura tarefas marcadas como concluídas.
+This project is a **Python 3** application that allows users to manage tasks easily. The program enables you to:
+
+* **Add Tasks**
+* **Delete Tasks**
+* **Complete Tasks**
+* **Modify Tasks**
+* **View tasks that are ongoing, completed, or deleted**
+* **Recover deleted or completed tasks**
 
 ---
 
-## 💾 **Configuração**
+## 🛠️ **Main Features**
 
-### Pré-requisitos
+1. **Add Tasks**: Includes task name and deadline.
+2. **Delete Tasks**: Removes tasks from the active task list.
+3. **Complete Tasks**: Moves tasks to the completed task list.
+4. **Modify Tasks**: Allows updating the name or deadline of a specific task.
+5. **View Tasks**:
 
-- Python 3.x instalado no seu sistema.
-- Ambiente compatível com execução de scripts em Python.
+   * Active tasks
+   * Completed tasks
+   * Deleted tasks
+6. **Recover Deleted Tasks**: Restores deleted tasks.
+7. **Recover Completed Tasks**: Restores tasks marked as completed.
 
 ---
 
-## ▶️ **Como Executar**
+## 💾 **Setup**
 
-1. Clone o repositório para seu ambiente local:
+### Prerequisites
+
+* Python 3.x installed on your system.
+* Environment compatible with running Python scripts.
+
+---
+
+## ▶️ **How to Run**
+
+1. Clone the repository to your local environment:
 
 ```bash
-git clone https://github.com/seu-usuario/gerenciador-tarefas.git
+git clone https://github.com/your-username/task-manager.git
 ```
 
-2. Acesse o diretório do projeto:
+2. Navigate to the project directory:
 
 ```bash
-cd gerenciador-tarefas
+cd task-manager
 ```
 
-3. Execute o script:
+3. Run the script:
 
 ```bash
-python nome_do_arquivo.py
+python filename.py
 ```
 
-4. Interaja através do menu exibido no terminal.
+4. Interact through the menu displayed in the terminal.
 
 ---
 
-## 🏆 **Menu do Sistema**
+## 🏆 **System Menu**
 
-Após iniciar o programa, o menu exibirá as seguintes opções:
+After starting the program, the menu will show the following options:
 
-1. **Adicionar Tarefa**
-   - Insere uma nova tarefa com um prazo.
-   
-2. **Excluir Tarefa**
-   - Permite excluir uma tarefa da lista de tarefas ativas.
-   
-3. **Concluir Tarefa**
-   - Marca uma tarefa como concluída.
+1. **Add Task**
 
-4. **Ver Tarefas Ativas**
-   - Exibe todas as tarefas em andamento.
+   * Insert a new task with a deadline.
 
-5. **Ver Tarefas Excluídas**
-   - Lista todas as tarefas que foram excluídas.
+2. **Delete Task**
 
-6. **Ver Tarefas Concluídas**
-   - Lista todas as tarefas marcadas como concluídas.
+   * Allows deleting a task from the active task list.
 
-7. **Modificar Tarefa**
-   - Permite atualizar o nome ou o prazo de uma tarefa.
+3. **Complete Task**
 
-8. **Recuperar Tarefa Excluída**
-   - Recupera uma tarefa que foi excluída da lista.
+   * Marks a task as completed.
 
-9. **Recuperar Tarefa Concluída**
-   - Recupera uma tarefa concluída e a move novamente para a lista de tarefas ativas.
+4. **View Active Tasks**
 
-10. **Sair**
-   - Encerra o programa.
+   * Displays all ongoing tasks.
 
----
+5. **View Deleted Tasks**
 
-## 🧩 **Estrutura e Funcionalidades do Código**
+   * Lists all tasks that were deleted.
 
-1. **Adicionar Tarefa**:
-   - Insere o nome da tarefa e o prazo.
-   
-2. **Excluir Tarefa**:
-   - Confirma exclusão da tarefa após verificação.
-   
-3. **Concluir Tarefa**:
-   - Mover da tarefa da lista principal para a lista de tarefas concluídas.
-   
-4. **Modificar Tarefa**:
-   - Altere o nome ou o prazo da tarefa conforme necessário.
+6. **View Completed Tasks**
 
-5. **Visualizar Tarefas**:
-   - Veja as listas de tarefas ativas, excluídas e concluídas.
-   
-6. **Recuperar Tarefas Excluídas ou Concluídas**:
-   - Recupera tarefas que foram movidas para listas de exclusão ou conclusão.
+   * Lists all tasks marked as completed.
+
+7. **Modify Task**
+
+   * Allows updating the name or deadline of a task.
+
+8. **Recover Deleted Task**
+
+   * Recovers a task that was deleted from the list.
+
+9. **Recover Completed Task**
+
+   * Recovers a completed task and moves it back to the active task list.
+
+10. **Exit**
+
+* Closes the program.
 
 ---
 
-## ⚙️ **Tecnologias Utilizadas**
+## 🧩 **Code Structure and Functionalities**
 
-- **Python 3.x**
-- Biblioteca `os` para limpar o console.
-- Biblioteca `time.sleep()` para dar tempo para visualização das mensagens.
+1. **Add Task**:
+
+   * Inserts task name and deadline.
+
+2. **Delete Task**:
+
+   * Confirms task deletion after verification.
+
+3. **Complete Task**:
+
+   * Moves the task from the main list to the completed tasks list.
+
+4. **Modify Task**:
+
+   * Change the name or deadline of the task as needed.
+
+5. **View Tasks**:
+
+   * View lists of active, deleted, and completed tasks.
+
+6. **Recover Deleted or Completed Tasks**:
+
+   * Recovers tasks that were moved to deletion or completion lists.
 
 ---
 
-Agora você tem em mãos um sistema de gerenciamento de tarefas prático e funcional! 🚀 Boa sorte! 🎯
+## ⚙️ **Technologies Used**
+
+* **Python 3.x**
+* `os` library to clear the console.
+* `time.sleep()` for allowing time to read messages.
