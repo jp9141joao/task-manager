@@ -47,7 +47,7 @@ This project is a **Python 3** application that allows users to manage tasks eas
 1. Clone the repository to your local environment:
 
 ```bash
-git clone https://github.com/your-username/task-manager.git](https://github.com/jp9141joao/task-manager
+git clone https://github.com/jp9141joao/task-manager
 ```
 
 2. Navigate to the project directory:
